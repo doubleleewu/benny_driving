@@ -10,6 +10,7 @@ public class MainAct extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.act_main);
+		System.out.println("123123");
 	}
 
 	@Override
