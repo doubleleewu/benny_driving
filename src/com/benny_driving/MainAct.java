@@ -10,7 +10,6 @@ public class MainAct extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.act_main);
-		System.out.println("123123");
 	}
 
 	@Override
@@ -18,6 +17,7 @@ public class MainAct extends Activity {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
+		//111
 	}
 
 }
